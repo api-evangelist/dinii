@@ -1,8 +1,26 @@
 aid: dinii
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dinii.png
 name: Dinii
-description: 'Dinii is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Dinii (株式会社ダイニー) is a Tokyo-based restaurant-technology SaaS company, founded
+  in June 2018, offering an "All in One Restaurant Cloud" for food-service businesses. Its
+  integrated modules span POS register, customer mobile ordering, mobile self-checkout payment,
+  customer management/CRM (with LINE integration), staff attendance and scheduling, reservation
+  ledger, and management analytics dashboards (daily P&L, labor-cost optimization, QSC monitoring).
+  Dinii reports 3,000+ installed locations and 20 million+ end users, with offices in Tokyo, Osaka,
+  Sapporo, and Nagoya. It was surfaced as a portfolio company of Bessemer Venture Partners and added
+  to the API Evangelist network. Dinii publishes no public developer portal, API documentation, or
+  SDKs at this time; this profile captures its identity and public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/dinii/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Restaurants
+- Point of Sale
+- Mobile Ordering
+- Food Service
+- SaaS
+- CRM
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://dinii.jp/
+- type: About
+  url: https://dinii.jp/company/
+- type: Blog
+  url: https://dinii.jp/blog/
+- type: Support
+  url: https://dinii.jp/contact/
+- type: TermsOfService
+  url: https://info.dinii.jp/
+- type: PrivacyPolicy
+  url: https://info.dinii.jp/privacy.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
