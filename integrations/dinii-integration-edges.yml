@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/dinii/integrations
+- https://n8n.io/integrations/dinii/
+- https://composio.dev/toolkits/dinii
+- https://monid.ai/tools/dinii
+checked:
+- https://composio.dev/toolkits/dinii
+- https://monid.ai/tools/dinii
+- https://n8n.io/integrations/dinii/
+- https://zapier.com/apps/dinii/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
